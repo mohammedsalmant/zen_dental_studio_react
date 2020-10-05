@@ -1,0 +1,539 @@
+.top{
+    background-color: #eaf0f0;
+    padding-bottom: 17%;
+}
+.navbar{
+    display: flex;
+    padding: 35px 55px 0px;
+}
+
+.logo{
+    width: 130px;
+}
+.nav-items{
+    margin-left: 13%;
+    margin-top: 1px;
+    margin-right: 5%;
+    position: absolute;
+    right: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: inline;
+    margin: 0px 18px;
+    padding:9.27px 0px ;
+
+}
+
+.btn{
+    color: white;
+    background-color: #ba812e;
+    border: 0px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+
+
+
+.top1{
+    padding-top: 7%;
+}
+
+#topimg1{
+    height: 50%;
+    width: 25%;
+}
+#topp1{
+    display: inline;
+    font-size: 527%;
+    position: absolute;
+    font-family: "psfournier-std-grand";
+    line-height: 1.1em;
+    margin-top: 7%;
+    margin-left: -5%;
+    width: 60%;
+}
+
+#topp2{
+    display: inline;
+    position: absolute;
+    margin-top: 26%;
+    font-size: 177%;
+    margin-left: 3%;
+    color: #525251;
+}
+
+.btn2{
+    color: white;
+    background-color: #ba812e;
+    border: 0px;
+    padding: 13px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 3%;
+}
+#topimg2{
+    height: 47%;
+    width: 40%;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 35%;
+}
+
+
+.middle{
+    padding-bottom: 10%;
+}
+
+#middleimg{
+    height: 57%;
+    width: 40%;
+    position: absolute;
+    margin-top: 12%;
+}
+
+#middlep{
+    font-family: psfournier-std-grand;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 38%;
+    width: 31%;
+}
+
+
+.ourvalues{
+    background-color: #efeeed;
+    position: absolute;
+    margin-top: 50%;
+    padding-right: 80%;
+    padding-bottom:50% ;
+}
+
+#our-values-img{
+    height: 81%;
+    width: 43%;
+    position: absolute;
+    left: 64%;
+    margin-top: -14%;
+}
+/* .our-service-patient{
+    position: absolute;
+    margin-left: 5%;
+    top: 295%;
+    width: 40%;
+} */
+
+.our-services{
+    position: absolute;
+    margin-left: 5%;
+    top: 380%;
+    width: 40%;
+}
+
+#our-services-h1{
+    font-family: psfournier-std-grand;
+    font-size: 60px;
+    font-weight:300;
+}
+#our-services-p{
+    font-family: proxima-nova;
+    color: #3a4145;
+    font-size: 15px;
+    line-height: 1.8em;
+    letter-spacing: .03em;
+}
+#our-services-h3{
+    font-family:futura-pt;
+    color: #ba812e;
+    size: 16px;
+}
+.our-services-h2{
+    font-family:psfournier-std-grand;
+    font-size: 109%;
+    grid:auto / auto auto;
+    display: grid;
+    font-weight:300;
+}
+.our-patients{
+    position: absolute;
+    left: 56%;
+    top: 390%;
+    width: 31%;
+}
+.btn3{
+    color: white;
+    background-color: #ba812e;
+    border: 0px;
+    padding: 13px;
+    cursor: pointer;
+    position: absolute;
+    top: 104%;
+    left: -1%;
+}
+.kind-words{
+    position:absolute;
+    top: 474%;
+    left: 2%;
+    background-color: #eaf0f0;
+    margin-left: -20px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.kind-word-content{
+    width: 71%;
+    margin-left: 16%;
+}
+
+#kind-words-h3{
+    text-align: center;
+    white-space: pre-wrap;
+    color: #ba812e;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12%;
+    letter-spacing: .2em;
+}
+
+.em-tag{
+    position: absolute;
+    top: 539%;
+    font-size: 30px;
+    color:#3a4145;
+    left: 27%;
+    font-family: psfournier-std-grand;
+    font-weight: 300;
+}
+
+.em-tag-1{
+    text-align: center;
+    white-space: pre-wrap;
+    font-size: 16px;
+}
+
+.em-tag-2{
+    text-align: center;
+    white-space: pre-wrap;
+    margin-left: 10%;
+}
+
+.map{
+    position: relative;
+    top: 2820px;
+}
+
+.btn4{
+    color: white;
+    background-color: #ba812e;
+    border: 0px;
+    padding: 13px;
+    cursor: pointer;
+    position: absolute;
+    top: 136%;
+    left: 32%;
+}
+
+#map{
+    position: absolute;
+    top: 140%;
+}
+
+.footer{
+    position: absolute;
+    top: 636%;
+    background-color: #e9f0f0;
+    width: 100%;
+    padding: 48px 70px;
+    min-height:350px;
+}
+
+.btn5{
+    color: white;
+    background-color: #ba812e;
+    border: 0px;
+    padding: 13px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#info-h2{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    letter-spacing: .01em;
+    line-height: 1.5em;
+    font-family: psfournier-std-grand;
+    font-weight: 100;
+}
+#info-h3{
+    font-size: 84%;
+}
+.footer-middle{
+    position: absolute;
+    left: 35%;
+    top: 11%;
+}
+
+.footer-last{
+    position: absolute;
+    left: 62%;
+    top: 11%;
+}
+
+
+#hr-1{
+    position: absolute;
+    left: 6%;
+    top: 19%;
+    width: 16%;
+}
+
+#hr-2{
+    position: absolute;
+    left: 1%;
+    top: 13%;
+    width: 113%;
+}
+
+#hr-3{
+    position: absolute;
+    left: -1%;
+    top: 11%;
+    width: 95%;
+}
+
+/* 
+.fa-bars{
+    color: #1185d3;
+}
+
+.fa-times{
+    color: #1185d3;
+}
+.name{
+    padding: 25px 20px !important;
+}
+.nav-links-mobile{
+    display: none;
+}
+.fa-react{
+    margin-left: 0.5rem;
+    font-size:1.6rem;
+} */
+@media screen and (min-width:800px) {
+
+    #topp1{
+        font-size: 426%;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    .nav-items{
+        display: none;
+    }
+
+    /* .nav-items{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:500px;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active{
+        background:#6668f4;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index:1;
+    }
+    .nav-links{
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%,60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    } */
+
+
+
+    .top{
+        width: 100%;
+        background-color: #fff;
+    }
+
+
+    #topimg1 {
+        height: 508px;
+        width: 125%;
+    }
+   
+    
+    #topp1 {
+            position: absolute;
+            font-size: 40px !important;
+            color: white;
+            left: 12%;
+            top: 42%;
+            width: 85%;
+        }
+    
+        #topp2 {
+            display: inline;
+            position: absolute;
+            color: white;
+            left: 4%;
+            top: 44%;
+            font-size: 20px;
+        }
+        #topimg2 {
+            display: none;
+        }
+
+        #middleimg {display: none;}
+
+        #middlep {
+            font-family: psfournier-std-grand;
+            font-size: 18px;
+            position: absolute;
+            width: 100%;
+            left: -36%;
+            top: 95%;
+        }
+
+        .btn2 {
+            color: white;
+            background-color: #ba812e;
+            border: 0px;
+            padding: 13px;
+            cursor: pointer;
+            position: absolute;
+            top: 45%;
+             left: 5%;
+        }
+        #our-values-img {
+            height: 81%;
+            width: 43%;
+            position: absolute;
+            left: 41%;
+            margin-top: -14%;
+        }
+
+        .our-services {
+            position: absolute;
+            margin-left: 5%;
+            top: 195%;
+            width: 89%;
+        }
+
+        #our-services-h1 {
+            font-family: psfournier-std-grand;
+            font-size: 34px;
+            font-weight: 300;
+        }
+
+        .our-services-h2 {
+            font-family: psfournier-std-grand;
+            font-size: 72%;
+            display: grid;
+        }
+
+        .our-patients {
+            position: absolute;
+            left: 6%;
+            top: 268%;
+            width: 90%;
+        }
+        .kind-words {
+            position: absolute;
+            top: 321%;
+            left: 2%;
+            background-color: #eaf0f0;
+            margin-left: -20px;
+            width: 103%;
+            padding-bottom: 5%;
+        }
+        #kind-words-h3 {
+            text-align: center;
+            white-space: pre-wrap;
+            color: #ba812e;
+            font-size: 11px;
+            font-weight: 600;
+            margin-top: 12%;
+            letter-spacing: .2em;
+        }
+        .em-tag {
+            position: absolute;
+            top: 418%;
+            font-size: 18px;
+            color: #3a4145;
+            left: 15%;
+            font-family: psfournier-std-grand;
+            font-weight: 300;
+        }
+        .btn4 {
+            color: white;
+            background-color: #ba812e;
+            border: 0px;
+            padding: 13px;
+            cursor: pointer;
+            position: absolute;
+            top: 136%;
+            left: 16%;
+        }
+        .map {
+            position: relative;
+            top: 2171px;
+        }
+        .footer {
+            position: absolute;
+            top: 504%;
+            background-color: #e9f0f0;
+            width: 73%;
+            padding:185px 70px;
+            min-height: 350px;
+        }
+
+        .footer-first{
+            position: absolute;
+            left: 7%;
+            top: 0%;
+        }
+        .footer-middle {
+            position: absolute;
+            left: 7%;
+            top: 33%;
+        }
+        .footer-last {
+            position: absolute;
+            left: 7%;
+            top: 57%;
+        }
+        #info-h2 {
+            font-size: 17px;
+        }
+        .footer-last-h3{
+            font-size: 10px;
+        }
+    }
