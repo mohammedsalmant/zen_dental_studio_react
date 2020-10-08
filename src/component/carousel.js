@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';   
+import React, { Component } from 'react';  
 import Carousel from 'react-carousel-liron';
 export default class DemoCarousel extends Component {
   render() {   
@@ -19,7 +18,7 @@ export default class DemoCarousel extends Component {
       <div className="container">
         <Carousel>
             <div>
-                {/* <img src="assets/someimage1.jpg" /> */}
+              
                 <h1 style={divh1}>Vanessa C</h1>
                 <p style={divp}>The staff from receptionist to hygienist to doctor were all so lovely, warm, attentive, helpful and took time to explain everything thoroughly. Highly recommend this office for dental needs!</p>
             </div>

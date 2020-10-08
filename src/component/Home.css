@@ -19,6 +19,7 @@
 }
 a{
     text-decoration: none;
+    color: black;
 }
 
 .nav-links{
@@ -28,6 +29,32 @@ a{
     padding:9.27px 0px ;
 
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding-top: 10px;
+    
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    opacity:.5
+}
+
+.dropdown-content-item:hover .dropdown-content-item{
+    color:#fff;
+			opacity:1;
+			transform:translateX(.5rem)
+}
+
+
 
 .btn{
     color: white;
@@ -116,6 +143,20 @@ a{
     padding-bottom:50% ;
 }
 
+#our-values-h3{
+    font-family:futura-pt;
+    color: #ba812e;
+    size: 16px;
+    position: relative;
+    left: 41%;
+}
+
+.ourValues-content{
+    position: absolute;
+    left: 6%;
+}
+
+
 #our-values-img{
     height: 81%;
     width: 43%;
@@ -123,6 +164,59 @@ a{
     left: 64%;
     margin-top: -14%;
 }
+.our-service-h2{
+    font-family: PSFournier Std Grand;
+    cursor: pointer;
+}
+h2 strong{
+    font-family: 'Futura PT';
+    color: goldenrod;
+    padding-right: 8px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.ourValues-p1-active{
+    display: block;
+    width: 50%;
+    font-size: smaller;
+    margin-left: 2%;
+}
+.ourValues-p1{
+    display: none;
+}
+
+.ourValues-p2-active{
+    display: block;
+    width: 50%;
+    font-size: smaller;
+    margin-left: 2%;
+}
+.ourValues-p2{
+    display: none;
+}
+
+.ourValues-p3-active{
+    display: block;
+    width: 50%;
+    font-size: smaller;
+    margin-left: 2%;
+}
+.ourValues-p3{
+    display: none;
+}
+
+.ourValues-p4-active{
+    display: block;
+    width: 50%;
+    font-size: smaller;
+    margin-left: 2%;
+}
+.ourValues-p4{
+    display: none;
+}
+
+
 /* .our-service-patient{
     position: absolute;
     margin-left: 5%;
@@ -153,6 +247,7 @@ a{
     font-family:futura-pt;
     color: #ba812e;
     size: 16px;
+    
 }
 .our-services-h2{
     font-family:psfournier-std-grand;
